@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtleturtle" />
+    <node pkg="yh_turtle" type="turtle_patrol.py" name="patrolpatrol" />
+</launch>
