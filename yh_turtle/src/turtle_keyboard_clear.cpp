@@ -5,7 +5,7 @@
 int main(int argc, char** argv)
 {
     ros::init(argc, argv, "turtle_keyboard_clear");
-    MyTurtle my_turtle();
+    MyTurtle my_turtle;
 
     ros::spin();
 

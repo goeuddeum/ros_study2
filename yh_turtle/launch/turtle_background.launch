@@ -1,0 +1,8 @@
+<launch>
+    <!-- $(find 패키지이름)/런치파일경로/런치파일.launch -->
+    <include file="$(find yh_turtle)/launch/turtle_keyboard.clear.launch" />
+    <param name="turtle/background_r" value="$(arg r)" type="int"  />
+    <param name="turtle/background_g" value="$(arg g)" type="int"  />
+    <param name="turtle/background_b" value="$(arg b)" type="int"  />
+    
+</launch>

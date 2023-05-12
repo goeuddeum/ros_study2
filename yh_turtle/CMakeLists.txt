@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   roscpp
   rospy
+  std_srvs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -104,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS include
-#  LIBRARIES yh_tultle
+#  LIBRARIES yh_turtle
 #  CATKIN_DEPENDS geometry_msgs roscpp rospy
 #  DEPENDS system_lib
 )
@@ -122,7 +123,7 @@ include
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/yh_tultle.cpp
+#   src/${PROJECT_NAME}/yh_turtle.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -215,7 +216,7 @@ target_link_libraries(turtle_keyboard_clear
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_yh_tultle.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_yh_turtle.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
